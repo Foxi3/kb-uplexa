@@ -1,6 +1,6 @@
 ---
 title: "What is uPlexa (UPX)"
-metaTitle: "Introduction Page about uPlexa"
+metaTitle: "uPlexa | Introduction"
 metaDescription: "History and background details about uPlexa"
 ---
 ![uPlexa Logo](https://raw.githubusercontent.com/Foxi3/uplexa-assets/main/upxlogo.svg)

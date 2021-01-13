@@ -44,7 +44,7 @@ const config = {
       '/technical_data/',
     ],
 //    collapsedNav: [
-//      '/uplexa_wallet', // add trailing slash if enabled above
+//     '/uplexa_wallet/', // add trailing slash if enabled above
 //    ],
     links: [{ text: 'uPlexa', link: 'https://uplexa.com' }],
     frontline: true,
@@ -57,7 +57,7 @@ const config = {
     description: 'Knowledge Base for uPlexa & Its Ecosystem',
     ogImage: null,
     docsLocation: 'https://github.com/Foxi3/kb-uplexa/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: 'https://raw.githubusercontent.com/Foxi3/uplexa-assets/main/logo_U-bw.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.

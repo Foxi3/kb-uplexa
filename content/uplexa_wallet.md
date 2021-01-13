@@ -1,6 +1,5 @@
 ---
 title: "uPlexa Wallet"
-metaTitle: "Introduction Page about uPlexa"
+metaTitle: "uPlexa | About Wallet"
 metaDescription: "Summary info about all available uPlexa Wallet"
 ---
-

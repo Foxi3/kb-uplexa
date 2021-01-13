@@ -1,8 +1,9 @@
 ---
-title: "Utility Nodes (PoS)"
-metaTitle: "How-To for uPlexa Utility Nodes"
-metaDescription: "Details info and guides how to install and use uPlexa Utility Nodes"
+title: "Utility Node (PoS)"
+metaTitle: "uPlexa | Utility Node - Info & Guides"
+metaDescription: "Details info and guides how to install and use uPlexa Utility Node"
 ---
+
 | ⚠️ TESTNET STAGE 🛠  |
 |---------------------|
 

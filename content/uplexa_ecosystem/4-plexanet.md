@@ -1,5 +1,5 @@
 ---
 title: "PlexaNet"
-metaTitle: "Info Page about PlexaNet"
+metaTitle: "uPlexa | Plexanet - Information Pages"
 metaDescription: "Details info and guides how to install and use PlexaNet"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-metaTitle: "How-To info on getting started with uPlexa"
+metaTitle: "uPlexa | Getting Started with uPlexa"
 metaDescription: "Details guides and step how to setup uPlexa Wallet, mining and setting up uPlexa Ecosystem"
 ---
 

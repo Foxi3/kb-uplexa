@@ -1,6 +1,6 @@
 ---
 title: "ElectraLight Wallet"
-metaTitle: "How-To for uPlexa ElectraLight Wallet"
+metaTitle: "uPlexa | ElectraLight Wallet Info & Guides"
 metaDescription: "Details info and guides how to install and use uPlexa ElectraLight Wallet"
 ---
 

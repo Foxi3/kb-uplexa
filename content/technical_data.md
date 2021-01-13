@@ -1,6 +1,6 @@
 ---
 title: "uPlexa Technical Data"
-metaTitle: "Technical Data Information about uPlexa"
+metaTitle: "uPlexa | Technical Data on uPlexa"
 metaDescription: "Basic technical data information about uPlexa and it's ecosystem"
 ---
 
