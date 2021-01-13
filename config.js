@@ -41,6 +41,7 @@ const config = {
       '/get_started/',
       '/uplexa_wallet/',
       '/uplexa_ecosystem/',
+      '/technical_data/',
     ],
 //    collapsedNav: [
 //      '/uplexa_wallet', // add trailing slash if enabled above

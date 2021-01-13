@@ -43,7 +43,7 @@ There are certain requirements for Utility Node as we want to ensure quality and
 - [ ] tutorial on running node using screen
 
 
-> We recommend using Ubuntu 18.04 or latest version for beginners and less technical user. As such, our guides setup will be based on Ubuntu 18.04 system. You may refer to our Github for compile instruction for other distros.
+> We recommend using Ubuntu 18.04 or latest version for beginners and less technical user. As such, our setup guides will be based on Ubuntu 18.04 system. You may refer to our Github for compile instruction for other distros.
 
 #### Step 1: Create Your Virtual Machine and Run Initial Setup
 Deploy your VM with your favourite hosting services and run initial system update and upgrade.
@@ -81,5 +81,58 @@ Compile the code:
 make release
 ```
 
-Note: If the code compile stuck or running too slow, you may need to create /swapfile. You may refer to `https://linuxize.com/post/create-a-linux-swap-file/`
+Note: If the code compile stuck or running too slow, you may need to create /swapfile.  
+You may refer to `https://linuxize.com/post/create-a-linux-swap-file/`
 
+#### Step 5: Start Daemon in Utility Node
+The resulting executable can be found at `$ ~/uplexa/build/Linux/master/release/bin`  
+Navigate to the folder:
+```
+cd ~/uplexa/build/Linux/master/release/bin
+```
+Start daemon in Utility Node mode and let it sync. This may take several hours (much quicker on testnet):
+> **_Note:_** You can start daemon in background using --detach mode, or use screen
+
+```
+./uplexad --testnet --utility-node
+```
+> _Optional:_ Add `PATH="$PATH:$HOME/uplexa/build/Linux/master/release/bin"` to .profile and then run uPlexa Node with
+```
+uplexad --testnet --utility-node
+```
+
+#### Step 6: Create Testnet Wallet
+
+Create testnet wallet to get wallet address for staking:
+```
+./uplexa-wallet-cli --testnet
+```
+Follow the instructions and save the 25-mnemonic seed word to restore the wallet later if needed. 
+
+#### Step 7: Register Utility Node
+Back to your daemon, you may now register your Utility Node to the network:
+```
+register_node
+```
+Follow the instructions.
+
+| ⚠️ ATTENTION   |
+|---------------|
+
+- Select NO for auto-staking until we patch the code.
+- For Manual Staking (in testnet), the locking period is 2 days (1440 block). You need to re-staking (re-register the Utility Node) upon expiry.
+- to check your expiry height, run `print_un_status` in the daemon. Check Expiry Height (block) or Expiry Date (Estimated in UTC).
+
+Once complete, you will receive a code in which must be pasted into the wallet client.  
+Paste the code you were provided by the daemon to the uplexa-wallet-cli, and agree to the TX fee.  
+
+| ✅ SUCCESS |
+|------------|
+
+You are now set up! You should start receiving block rewards coming in every couple minutes.  
+Run `show_transfers` to see your incoming transfers from the uplexa-wallet-cli marked _unode._
+
+# Bug Reporting
+
+Please report all bugs using [Github](https://github.com/uPlexa/uplexa/issues).  
+Please make sure to search to see if the bug you are posting has already been posted prior to making a new issue. 
