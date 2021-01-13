@@ -4,7 +4,10 @@ metaTitle: "How-To for uPlexa ElectraLight Wallet"
 metaDescription: "Details info and guides how to install and use uPlexa ElectraLight Wallet"
 ---
 
-![ElectraLight Wallet Logo](https://raw.githubusercontent.com/uPlexa/electralight-wallet/master/src/statics/uplexa-wallet.svg)
+# TO-DO
+- [ ] Insert link for block height & block date summary  
+
+![ElectraLight Wallet Logo](https://camo.githubusercontent.com/8d25608fe4680cf25680b56706d5af585267f21fb4f091aa0daf6837a6e94b35/68747470733a2f2f75706c6578612e636f6d2f696d672f75706c6578612d77616c6c65742d73637265656e73686f74732f75706c6578612d77616c6c65742e706e67)
 
 **ElectraLight** wallet is the Lightweight GUI Wallet for uPlexa. It is an electron based wallet that bring several improvement and user-friendliness over uPlexa GUI wallet.
 
@@ -53,14 +56,18 @@ metaDescription: "Details info and guides how to install and use uPlexa ElectraL
 
 Download the executable (.exe) file from Github and install to your system.  
 The installer will automatically install **ElectraLight** wallet and create program shortcut on your desktop. The default installation path as follows:  
-`C:\Users\{UserName}\AppData\Local\Programs\uplexa-wallet-electralight`  
-`C:\ProgramData\uplexa`  
-`C:\Users\{UserName}\AppData\Local\uplexa-wallet-electralight-updater`  
-`C:\Users\{UserName}\AppData\Roaming\uPlexa ElectraLight Wallet`  
+- Default wallet installation folder  
+&nbsp;&nbsp;&nbsp;`C:\Users\{UserName}\AppData\Local\Programs\uplexa-wallet-electralight`  
+- Default wallet data storage path  
+&nbsp;&nbsp;&nbsp;`C:\ProgramData\uplexa`  
+- Wallet updater file  
+&nbsp;&nbsp;&nbsp;`C:\Users\{UserName}\AppData\Local\uplexa-wallet-electralight-updater`  
+- Default wallet gui setting file  
+&nbsp;&nbsp;&nbsp;`C:\Users\{UserName}\AppData\Roaming\uPlexa ElectraLight Wallet`  
 
 ### Linux (Ubuntu 18.04)
 
-Download the AppImage from Github. You need to make it excutable using the following command:
+Download the AppImage from Github. You need to make it excutable using the following command:  
 &nbsp;&nbsp;&nbsp;`chmod a+x Wallet.Electralight.*.AppImage`  
 Run the wallet  
 &nbsp;&nbsp;&nbsp;`./Wallet.Electraligt.*.AppImage`
