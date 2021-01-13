@@ -40,20 +40,46 @@ There are certain requirements for Utility Node as we want to ensure quality and
 ### TO-DO
 - [ ] List of tested hosting
 - [ ] simple video of deploying a VM and initial setup.
+- [ ] tutorial on running node using screen
 
 
 > We recommend using Ubuntu 18.04 or latest version for beginners and less technical user. As such, our guides setup will be based on Ubuntu 18.04 system. You may refer to our Github for compile instruction for other distros.
 
 #### Step 1: Create Your Virtual Machine and Run Initial Setup
 Deploy your VM with your favourite hosting services and run initial system update and upgrade.
-&nbsp;&nbsp;&nbsp;`sudo apt update -y && apt upgrade -y`
+```
+sudo apt update -y && apt upgrade -y
+```
 
 #### Step 2: Installed Required Libraries and Dependencies
 In order to compile uPlexa, install dependencies libraries and tool required for the compilation:  
 ```
 sudo apt install git build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libpgm-dev -y
 ```  
-More details summaries of the libraries and tools can be found here: `https://github.com/uplexa/uplexa#dependencies`
+More details summaries of the libraries and tools can be found here:  
+&nbsp;&nbsp;&nbsp;`https://github.com/uplexa/uplexa#dependencies`
 
 
-#### Step 3: Pull uPlexa Core Bundle (Steadfast Storm) from Official Github Repo 
+#### Step 3: Pull uPlexa Core Bundle (Steadfast Storm) from Official Github Repo
+
+Run the following command to pull uPlexa Core Bundle to your VM or server:
+```
+git clone --recursive https://github.com/uPlexa/uplexa
+```
+Navigate to uplexa directory and initiate & update submodule:
+```
+cd uplexa && git submodule init && git submodule update
+```
+
+#### Step 4: Compile 
+Testnet is compile on master branch of uPlexa repo:
+```
+git checkout master
+```
+Compile the code:
+```
+make release
+```
+
+Note: If the code compile stuck or running too slow, you may need to create /swapfile. You may refer to `https://linuxize.com/post/create-a-linux-swap-file/`
+
