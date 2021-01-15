@@ -50,7 +50,7 @@ metaDescription: "Details info and guides how to install and use uPlexa ElectraL
 - [Linux AppImage](https://github.com/uPlexa/electralight-wallet/releases/download/v0.2.1/Wallet.ElectraLight.0.2.1-Linux.AppImage)
 - [Source Code](https://github.com/uPlexa/electralight-wallet/archive/v0.2.1.tar.gz)
 
-# How-To Install
+# Installation
 
 ### Windows 10
 

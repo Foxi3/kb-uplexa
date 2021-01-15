@@ -40,6 +40,8 @@ const config = {
       '/introduction/', // add trailing slash if enabled above
       '/get_started/',
       '/uplexa_wallet/',
+      '/uplexa_pos/',
+      '/uplexa_pow/',
       '/uplexa_ecosystem/',
       '/technical_data/',
     ],
