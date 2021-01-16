@@ -3,6 +3,8 @@ title: "uPlexa Android Miner"
 metaTitle: "uPlexa | Andoid Miner - Info & Guides"
 metaDescription: "Details info and guides how to install and use uPlexa Android Miner"
 ---
+uPlexa is designed around complete IoT ubiquity. The underlying core functionality of this project, is to provide an incentive to IoT users to mint coins. With uPlexa's efficient algorithm to boost IoT hashing power, our first proved concept of IoT mining is realized with the release of uPlexa Android Miner.  
+
 On June 6, 2019 uPlexa release UPX Android Miner 0.0.1 Beta for public testing. We have improved the Android Miner since then by listening to our Community and further enhanced the mining efficiency and profitability of the IoT mining with the release of IoTProxy and UPXTWO codebase.
 
 # Downloads
