@@ -34,7 +34,7 @@ On the **Miner** page, set the following setting to your preference:
 - **Max CPU** (in percentage) -  You can set CPU usage percentage from 25%, 50%, 75% and 100%.
 
 | ❗ WARNING  |
-|------------|
+|-------------|
 > Running this software will consume an optional amount of your CPU. Running your CPU at a high setting for a prolonged duration may result in negative effects such as: battery drainage, slow response time, overheating, and may cause permanent damage to your device. By using this application, you assume full responsibility for any potential damage that may caused to your device.
 
 

@@ -3,10 +3,6 @@ title: "ElectraLight Wallet"
 metaTitle: "uPlexa | ElectraLight Wallet Info & Guides"
 metaDescription: "Details info and guides how to install and use uPlexa ElectraLight Wallet"
 ---
-
-# TO-DO
-- [ ] Insert link for block height & block date summary  
-
 ![ElectraLight Wallet Logo](https://raw.githubusercontent.com/uPlexa/electralight-wallet/master/src/statics/uplexa-wallet.svg)
 
 **ElectraLight** wallet is the Lightweight GUI Wallet for uPlexa. It is an electron based wallet that bring several improvement and user-friendliness over uPlexa GUI wallet.
@@ -88,7 +84,7 @@ On the main window of **ElectraLight** wallet, you have several option to choose
 
 # Create New Wallet
 
-| ‼️ IMPORTANT   |
+| ❗IMPORTANT   |
 |---------------|
 
 > Please copy your wallet **Seed Word**. Keeping this secure and private is very important, as it is the only way that you will be able to login to your account. As we don't store your wallet **Seed Word** on the server there is no way to recover it if it is lost! Your wallet **Seed Word** can also never be changed, and if it is stolen or otherwise compromised, you will have to move your funds to a new account with a new **Seed Word**. Therefore, it is best that you backup your wallet **Seed Word** by writing it down, perhaps obscuring it as part of a poem or letter, and storing it in multiple safe and secure places.
@@ -110,7 +106,7 @@ Select *Restore wallet from seed* and fill in the following existing wallet info
 - **Wallet Name** - Name of your wallet. Try giving specific wallet name (i.e MainWallet, Mining, Exchanges, etc.)
 - **Mnemonic seed** - 25-seed word generated when creating the wallet for the first time. This seed word is unique and specific to your wallet only.
     >**_Note:_** Seed word is case-sensitive and must be entered exactly in the arrangement when it first generated. Please check to ensure no extra spaces at the end.
-- **Restore from date/block height** - Entered the date when the wallet is created or the block height. If unsure, put the block height to "0". This will scan the entire blockchain from the genesis block until the current block.
+- **Restore from date/block height** - Entered the date when the wallet is created or the block height. You can refer to uPlexa blockheight summary here: [uPlexa Blockchain.](/technical_data/#blockchain) If unsure, put the block height to "0". This will scan the entire blockchain from the genesis block until the current blockheight.
 - **Password** - Password for your wallet.
 
 # Wallet Settings

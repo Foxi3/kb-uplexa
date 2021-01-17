@@ -53,8 +53,8 @@ Create new wallet by click on " + " button and select **_Create new wallet_**.
 
 Once you created your wallet, you will be directed to your wallet details which you have to make note or copied of your 25-word Mnemonic Seed.
 
-| ‼️ IMPORTANT   |
-|---------------|
+| ❗ IMPORTANT   |
+|----------------|
 
 > Please copy your wallet **Mnemonic Seed**. Keeping this secure and private is very important, as it is the only way that you will be able to login to your account. As we don't store your wallet **Mnemonic Seed** on the server there is no way to recover it if it is lost! Your wallet **Mnemonic Seed** can also never be changed, and if it is stolen or otherwise compromised, you will have to move your funds to a new account with a new **Mnemonic Seed**. Therefore, it is best that you backup your wallet **Mnemonic Seed** by writing it down, perhaps obscuring it as part of a poem or letter, and storing it in multiple safe and secure places.
 
