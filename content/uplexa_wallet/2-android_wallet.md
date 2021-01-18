@@ -33,10 +33,10 @@ Donwload uPlexa Androit Wallet from Google Play Store and it will be installed a
 - **Camera** for the QR Code features.
 - **Storage** to store and backup the walley key-file.
 
-<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1Lg83_KVqhLkK4cUKthaq3kG4S5-YtlbG" width="1920" height="1080" allowFullScreen></iframe></div>
-
 ### Seting Up uPlexa Node
 uPlexa Android Wallet required remote node to sync your wallet to the uPlexa blockchain. Add Node and enter the following details:
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1Lg83_KVqhLkK4cUKthaq3kG4S5-YtlbG" width="1920" height="1080" allowFullScreen></iframe></div>  
+
 - **Hostname** - remote.uplexa.com
 - **Port** - 21061
 - **Node Name** - uPlexa (optional). For easy identification if you have your own private node.
@@ -72,7 +72,7 @@ Restore your wallet using 25-word Mnemonic Seed or Private-Keys. Recommended met
 - **Wallet Name** - Name of your wallet. Try giving specific wallet name (i.e MainWallet, Mining, Exchanges, etc.)
 - **Wallet passphrase** - Password for your wallet. Crazypass will automatically detect your wallet password strength.
 - **25-word Mnemonic Seed** - Your wallet specific seed word.
-- **Blockheight or Date (YYY/MM/DD)** - Restore blockheight. If you remember blockheight or date you wallet is first created, you may enter the information accordingly or refer to uPlexa blockchain summary here: [uPlexa Blockchain](/technical_data/#blockchain). Alternatively, you may set the blockheight to "0" to scan from the beginning of the blockchain.
+- **Blockheight or Date (YYY/MM/DD)** - Restore blockheight. If you remember blockheight or date you wallet is first created, you may enter the information accordingly or refer to uPlexa blockchain summary here: [uPlexa Blockchain](/technical_data/#uplexablockchain). Alternatively, you may set the blockheight to "0" to scan from the beginning of the blockchain.
 
 
 # Scan Wallet

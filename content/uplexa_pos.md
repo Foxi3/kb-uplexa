@@ -120,7 +120,7 @@ Follow the instructions.
 | ⚠️ ATTENTION   |
 |---------------|
 
-- Select NO for auto-staking until we patch the code.
+- Select NO for auto-staking until we patch the code. **Latest update:** auto-staking option is disabled.
 - For Manual Staking (in testnet), the locking period is 2 days (1440 block). You need to re-staking (re-register the Utility Node) upon expiry.
 - to check your expiry height, run `print_un_status` in the daemon. Check Expiry Height (block) or Expiry Date (Estimated in UTC).
 
@@ -132,6 +132,33 @@ Paste the code you were provided by the daemon to the uplexa-wallet-cli, and agr
 
 You are now set up! You should start receiving block rewards coming in every couple minutes.  
 Run `show_transfers` to see your incoming transfers from the uplexa-wallet-cli marked _unode._
+
+# Shared Node
+
+### Node Operator
+
+For Node Operator, `register_node` and follow the instructions:
+- Will the operator contribute the entire stake (solo staking)? (Y/Yes/N/No): **No**
+- What percentage of the staking reward would the operator like to reserve as an operator fee (0-100)%: **10** _(Choose desired reward percentage for the Node Operator i.e:10%)_
+- How much uplexa will the operator reserve in the staking operation? **5000** _(Min staking is 5000 UPX)_
+- Do you wish to reserve portions of the stake for other specific contributors? (Y/Yes/N/No): **No**
+    - Select **_No_** - if you don't want to reserve staking positions. The shared node will be open to anyone to contribute their stake to your node.
+    - Select **_Yes_** - node operator will be able to reserve the staking position by providing the contributor wallet address and amount when prompted.
+
+Continue to follow the instructions, and you will receive a code in which must be pasted into the node operator's wallet client.  
+Paste the code you were provided by the daemon to the uplexa-wallet-cli, and agree to the TX fee.
+
+### Node Contributor
+
+Once the node operator successfully register the node to the network, the reserved contributor then can proceed to provide the staking amount in the `uplexa-wallet-cli` by using the following command:
+```
+stake <utility_node_pubkey> <contributors_wallet_add> <staking_amount>
+Example:
+stake 821f636ee49ef3d7eb3790b9ecf641c0399cb60511f0b3f4fd1c17f51664315c UPTzc6QFexU9fcRG55gLAcAqPDXJVSfKPK3RjLbhr1FkM6jkoFBp3BnF18moYfbEyFL9z8M4iFJ69bdoWcaJ75pLHGXRiegG87f 5000
+```
+> **_Note:_** Node operator can get the Utility Node Public Key by using command `print_un_key` in the utility node daemon.
+
+Once all the contributors already stake their portion, the node will automatically registered to the uPlexa Networks.
 
 # Bug Reporting
 

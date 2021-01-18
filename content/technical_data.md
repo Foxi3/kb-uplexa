@@ -4,9 +4,11 @@ metaTitle: "uPlexa | Technical Data on uPlexa"
 metaDescription: "Basic technical data information about uPlexa and it's ecosystem"
 ---
 
-# Blockchain
+# uPlexa Blockchain
 
-All date & time is in UTC timezone
+### Blockheight Summary
+
+All date & time is in UTC timezone.
 
 | Block Height |     Date & Time     |
 | :---         |        :----:       |

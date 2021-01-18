@@ -106,7 +106,7 @@ Select *Restore wallet from seed* and fill in the following existing wallet info
 - **Wallet Name** - Name of your wallet. Try giving specific wallet name (i.e MainWallet, Mining, Exchanges, etc.)
 - **Mnemonic seed** - 25-seed word generated when creating the wallet for the first time. This seed word is unique and specific to your wallet only.
     >**_Note:_** Seed word is case-sensitive and must be entered exactly in the arrangement when it first generated. Please check to ensure no extra spaces at the end.
-- **Restore from date/block height** - Entered the date when the wallet is created or the block height. You can refer to uPlexa blockheight summary here: [uPlexa Blockchain.](/technical_data/#blockchain) If unsure, put the block height to "0". This will scan the entire blockchain from the genesis block until the current blockheight.
+- **Restore from date/block height** - Entered the date when the wallet is created or the block height. You can refer to uPlexa blockheight summary here: [uPlexa Blockchain.](/technical_data/#uplexablockchain) If unsure, put the block height to "0". This will scan the entire blockchain from the genesis block until the current blockheight.
 - **Password** - Password for your wallet.
 
 # Wallet Settings

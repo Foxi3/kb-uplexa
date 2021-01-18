@@ -54,4 +54,4 @@ On the **Stats** page, you can view your current stat for your mining operation:
 # IoT Proxy
 > **iot-proxy.uplexa.com** is uPlexa own lightweight proxy that allow IoT devices to reach maximum efficiency and profits by grouping IoT miners into acting as one singular miner to the stratum protocol/pools.
 
-If you have several IoT devices (android phone, raspberry pi, android box tv, etc) you may view the devices mining stats on **iot-proxy.uplexa.com** just like workers stat page on uplexa mining pool. Simply enter your wallet address that you use for your mining operations.
+If you have several IoT devices (android phone, raspberry pi, android box tv, etc) you may view the devices mining stats on [**iot-proxy.uplexa.com**](https://iot-proxy.uplexa.com) just like workers stat page on uplexa mining pool. Simply enter your wallet address that you use for your mining operations.
