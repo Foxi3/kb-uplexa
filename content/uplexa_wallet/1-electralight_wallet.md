@@ -90,7 +90,7 @@ On the main window of **ElectraLight** wallet, you have several option to choose
 > Please copy your wallet **Seed Word**. Keeping this secure and private is very important, as it is the only way that you will be able to login to your account. As we don't store your wallet **Seed Word** on the server there is no way to recover it if it is lost! Your wallet **Seed Word** can also never be changed, and if it is stolen or otherwise compromised, you will have to move your funds to a new account with a new **Seed Word**. Therefore, it is best that you backup your wallet **Seed Word** by writing it down, perhaps obscuring it as part of a poem or letter, and storing it in multiple safe and secure places.
 
 Select *Create new wallet* and fill in the following info:  
-<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1Vf4woW_djva7ku2EBfUnOKyNkw-H19c_" width="1138" height="640"></iframe></div>
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1Vf4woW_djva7ku2EBfUnOKyNkw-H19c_" width="1138" height="640" allowFullScreen></iframe></div>
 
 - **Wallet Name** - Name of your wallet. Try giving specific wallet name (i.e MainWallet, Mining, Exchanges, etc.)
 - **Seed Language** - Choose the language for the 25-word mnemonic seed. 
@@ -101,7 +101,7 @@ Select *Create new wallet* and fill in the following info:
 # Restore Wallet (25-Word Seed)
 
 Select *Restore wallet from seed* and fill in the following existing wallet information:  
-<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1COr5O4wBP7qD2lKrqaLbYkJvV--Nh7R9" width="1138" height="640"></iframe></div>
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1COr5O4wBP7qD2lKrqaLbYkJvV--Nh7R9" width="1138" height="640" allowFullScreen></iframe></div>
 
 - **Wallet Name** - Name of your wallet. Try giving specific wallet name (i.e MainWallet, Mining, Exchanges, etc.)
 - **Mnemonic seed** - 25-seed word generated when creating the wallet for the first time. This seed word is unique and specific to your wallet only.
@@ -112,7 +112,7 @@ Select *Restore wallet from seed* and fill in the following existing wallet info
 # Wallet Settings
 
 In the wallet settings page, you may change wallet appearance and general settings as shown here:
-<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1YX_GRYx5zq9aX55vRKK9COLOj5yS7PFn" width="1138" height="640"></iframe></div>
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1YX_GRYx5zq9aX55vRKK9COLOj5yS7PFn" width="1138" height="640" allowFullScreen></iframe></div>
 
 ### Wallet Appearance
 

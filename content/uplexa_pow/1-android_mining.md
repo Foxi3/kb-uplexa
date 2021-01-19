@@ -37,7 +37,7 @@ On the **Miner** page, set the following setting to your preference:
 |-------------|
 > Running this software will consume an optional amount of your CPU. Running your CPU at a high setting for a prolonged duration may result in negative effects such as: battery drainage, slow response time, overheating, and may cause permanent damage to your device. By using this application, you assume full responsibility for any potential damage that may caused to your device.
 
-<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=10Npp3Gek-H22jXF_TAiP1acMJelO8We_" width="1920" height="1080"></iframe></div>
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=10Npp3Gek-H22jXF_TAiP1acMJelO8We_" width="1920" height="1080" allowFullScreen></iframe></div>
 
 - **START** - Start mining
 - **STOP** - Stop mining

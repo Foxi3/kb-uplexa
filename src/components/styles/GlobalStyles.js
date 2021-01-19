@@ -86,6 +86,12 @@ export const baseStyles = css`
     width: 100%;
     height: 100%;
   }
+//USER Video
+  .video-responsive video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
 
   .diffNewLine {
     color: #22863a;

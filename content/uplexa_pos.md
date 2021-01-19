@@ -46,22 +46,18 @@ There are certain requirements for Utility Node as we want to ensure quality and
 
 > We recommend using Ubuntu 18.04 or latest version for beginners and less technical user. As such, our setup guides will be based on Ubuntu 18.04 system. You may refer to our Github for compile instruction for other distros.
 
-#### Step 1: Create Your Virtual Machine and Run Initial Setup
+### Step 1: Create Your Virtual Machine and Run Initial Setup
 Deploy your VM with your favourite hosting services and run initial system update and upgrade.
 ```
 sudo apt update -y && apt upgrade -y
 ```
+#### Video Guide: Initial VPS Setting Up
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1NKARZBuLvF7yJ2yzLyQKQwM1aVMcYZmv" width="1920" height="1080" allowFullScreen></iframe></div>
 
-#### Step 2: Installed Required Libraries and Dependencies
-In order to compile uPlexa, install dependencies libraries and tool required for the compilation:  
-```
-sudo apt install git build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libpgm-dev -y
-```  
-More details summaries of the libraries and tools can be found here:  
-&nbsp;&nbsp;&nbsp;`https://github.com/uplexa/uplexa#dependencies`
+#### Video Guide: Update Your System
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1wHRl_UWD9WEHgNfdw-xpT22tKfccORwM" width="1920" height="1080" allowFullScreen></iframe></div>
 
-
-#### Step 3: Pull uPlexa Core Bundle (Steadfast Storm) from Official Github Repo
+### Step 2: Pull uPlexa Core Bundle (Steadfast Storm) from Official Github Repo
 
 Run the following command to pull uPlexa Core Bundle to your VM or server:
 ```
@@ -72,7 +68,18 @@ Navigate to uplexa directory and initiate & update submodule:
 cd uplexa && git submodule init && git submodule update
 ```
 
-#### Step 4: Compile 
+#### Video Guide: Pre-Compilation
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=16VcUhVRuT_98af5eVRaik6OhVXMTgPDB" width="1920" height="1080" allowFullScreen></iframe></div>
+
+### Step 3: Installed Required Libraries and Dependencies
+In order to compile uPlexa, install dependencies libraries and tool required for the compilation:  
+```
+sudo apt install git build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libpgm-dev -y
+```  
+More details summaries of the libraries and tools can be found here:  
+&nbsp;&nbsp;&nbsp;`https://github.com/uplexa/uplexa#dependencies`
+
+### Step 4: Compile 
 Testnet is compile on master branch of uPlexa repo:
 ```
 git checkout master
@@ -85,7 +92,7 @@ make release
 Note: If the code compile stuck or running too slow, you may need to create /swapfile.  
 You may refer to `https://linuxize.com/post/create-a-linux-swap-file/`
 
-#### Step 5: Start Daemon in Utility Node
+### Step 5: Start Daemon in Utility Node
 The resulting executable can be found at `$ ~/uplexa/build/Linux/master/release/bin`  
 Navigate to the folder:
 ```
@@ -102,7 +109,7 @@ Start daemon in Utility Node mode and let it sync. This may take several hours (
 uplexad --testnet --utility-node
 ```
 
-#### Step 6: Create Testnet Wallet
+### Step 6: Create Testnet Wallet
 
 Create testnet wallet to get wallet address for staking:
 ```
@@ -110,7 +117,7 @@ Create testnet wallet to get wallet address for staking:
 ```
 Follow the instructions and save the 25-mnemonic seed word to restore the wallet later if needed. 
 
-#### Step 7: Register Utility Node
+### Step 7: Register Utility Node
 Back to your daemon, you may now register your Utility Node to the network:
 ```
 register_node
