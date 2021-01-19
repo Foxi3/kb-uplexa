@@ -26,9 +26,9 @@ const config = {
 		      </div>
 		    </a>
 		  </li>`,
-    links: [{ text: '', link: '' }],
+    links: [{ text: 'Privacy | Anonymity | IoT', link: 'https://uplexa.com' }],
     search: {
-      enabled: false,
+      enabled: true,
       indexName: '',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
@@ -61,7 +61,7 @@ const config = {
     favicon: 'https://raw.githubusercontent.com/Foxi3/uplexa-assets/main/logo_U-bw.svg',
   },
   pwa: {
-    enabled: false, // disabling this will also remove the existing service worker.
+    enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
       name: 'uPlexa Knowledge Base',
       short_name: 'uplexa-kb',
