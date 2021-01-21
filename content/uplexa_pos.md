@@ -18,6 +18,7 @@ UNs are like master nodes in the terms of providing proof-of-stake transactional
 
 # Requirements
 There are certain requirements for Utility Node as we want to ensure quality and reliablity of the nodes.
+> **_NOTE:_** We do not recommend using AWS, Google Cloud, or Microsoft Azure to deploy your VM.
 
 ### Mainnet
 
@@ -28,7 +29,6 @@ There are certain requirements for Utility Node as we want to ensure quality and
     - Min 13Mbps connection speed
     - 99.999% Uptime (or risks losing out on rewards)
 
-> **_NOTE:_** We do not recommend using AWS, Google Cloud, or Microsoft Azure to deploy your VM.
 
 ### Testnet
 
@@ -37,12 +37,6 @@ There are certain requirements for Utility Node as we want to ensure quality and
     - All specification will be the same as Mainnet but you are welcome to deploy the testnet on any devices capable of compiling the Steadfast Storm code.
 
 # Testnet Setup Guide (Ubuntu 18.04)
-
-### TO-DO
-- [ ] List of tested hosting
-- [ ] simple video of deploying a VM and initial setup.
-- [ ] tutorial on running node using screen
-
 
 > We recommend using Ubuntu 18.04 or latest version for beginners and less technical user. As such, our setup guides will be based on Ubuntu 18.04 system. You may refer to our Github for compile instruction for other distros.
 
