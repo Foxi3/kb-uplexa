@@ -28,8 +28,13 @@ const config = {
 		  </li>`,
     links: [{ text: 'Privacy | Anonymity | IoT', link: 'https://uplexa.com' }],
     search: {
+<<<<<<< HEAD
       enabled: true,
       indexName: 'dev_KBUPLEXA',
+=======
+      enabled: false,
+      indexName: '',
+>>>>>>> ccc1cf7fa68af229d6b2b0ee057650f4ffa3fe40
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,

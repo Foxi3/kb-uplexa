@@ -18,6 +18,7 @@ UNs are like master nodes in the terms of providing proof-of-stake transactional
 
 # Requirements
 There are certain requirements for Utility Node as we want to ensure quality and reliablity of the nodes.
+> **_NOTE:_** We do not recommend using AWS, Google Cloud, or Microsoft Azure to deploy your VM.
 
 ### Mainnet
 
@@ -28,7 +29,6 @@ There are certain requirements for Utility Node as we want to ensure quality and
     - Min 13Mbps connection speed
     - 99.999% Uptime (or risks losing out on rewards)
 
-> **_NOTE:_** We do not recommend using AWS, Google Cloud, or Microsoft Azure to deploy your VM.
 
 ### Testnet
 
@@ -37,12 +37,6 @@ There are certain requirements for Utility Node as we want to ensure quality and
     - All specification will be the same as Mainnet but you are welcome to deploy the testnet on any devices capable of compiling the Steadfast Storm code.
 
 # Testnet Setup Guide (Ubuntu 18.04)
-
-### TO-DO
-- [ ] List of tested hosting
-- [ ] simple video of deploying a VM and initial setup.
-- [ ] tutorial on running node using screen
-
 
 > We recommend using Ubuntu 18.04 or latest version for beginners and less technical user. As such, our setup guides will be based on Ubuntu 18.04 system. You may refer to our Github for compile instruction for other distros.
 
@@ -75,7 +69,7 @@ cd uplexa && git submodule init && git submodule update
 In order to compile uPlexa, install dependencies libraries and tool required for the compilation:  
 ```
 sudo apt install git build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libpgm-dev -y
-```  
+```
 More details summaries of the libraries and tools can be found here:  
 &nbsp;&nbsp;&nbsp;`https://github.com/uplexa/uplexa#dependencies`
 
@@ -88,6 +82,8 @@ Compile the code:
 ```
 make release
 ```
+#### Video Guide: Compile uPlexa Code
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1EA-F12FDO6MPn6jg7R2Ejlqg1ISZ5tJ6" width="1920" height="1080" allowFullScreen></iframe></div>
 
 Note: If the code compile stuck or running too slow, you may need to create /swapfile.  
 You may refer to `https://linuxize.com/post/create-a-linux-swap-file/`
