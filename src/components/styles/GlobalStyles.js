@@ -86,6 +86,12 @@ export const baseStyles = css`
     width: 100%;
     height: 100%;
   }
+//USER Video
+  .video-responsive video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
 
   .diffNewLine {
     color: #22863a;
@@ -611,6 +617,11 @@ export const baseStyles = css`
   /* Image styling */
   img {
     max-width: 100%;
+  }
+  /* USER Image styling*/
+  img[src*="#thumbnail"]{
+    max-width:75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   /* end image */
   .githubBtn {
