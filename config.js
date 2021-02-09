@@ -29,7 +29,7 @@ const config = {
     links: [{ text: 'Privacy | Anonymity | IoT', link: 'https://uplexa.com' }],
     search: {
       enabled: true,
-      indexName: '',
+      indexName: 'dev_KBUPLEXA',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
@@ -66,8 +66,8 @@ const config = {
       name: 'uPlexa Knowledge Base',
       short_name: 'uplexa-kb',
       start_url: '/',
-      background_color: '#6b37bf',
-      theme_color: '#6b37bf',
+      background_color: '#005848',
+      theme_color: '#005848',
       display: 'standalone',
       crossOrigin: 'use-credentials',
       icons: [
