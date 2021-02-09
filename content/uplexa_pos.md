@@ -69,7 +69,7 @@ cd uplexa && git submodule init && git submodule update
 In order to compile uPlexa, install dependencies libraries and tool required for the compilation:  
 ```
 sudo apt install git build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libpgm-dev -y
-```  
+```
 More details summaries of the libraries and tools can be found here:  
 &nbsp;&nbsp;&nbsp;`https://github.com/uplexa/uplexa#dependencies`
 
@@ -82,6 +82,8 @@ Compile the code:
 ```
 make release
 ```
+#### Video Guide: Compile uPlexa Code
+<div class="video-responsive"><iframe src="https://drive.google.com/uc?id=1EA-F12FDO6MPn6jg7R2Ejlqg1ISZ5tJ6" width="1920" height="1080" allowFullScreen></iframe></div>
 
 Note: If the code compile stuck or running too slow, you may need to create /swapfile.  
 You may refer to `https://linuxize.com/post/create-a-linux-swap-file/`
