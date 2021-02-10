@@ -8,7 +8,7 @@ Migrating from kb-uplexa MediaWiki to gatsbyjs. template based on gitbook style 
 Contribute to uPlexa Knowledge Base.
 
 Write markdown files in `content` folder.  
-Add new page by editing `config.js` and create .md documents filename similar to the navigation filename. See below.  
+Add new page by editing `config.js` and create .md documents filename similar to the navigation name in `config.js`. See below.  
 Sub-page can be nested inside folder with same filename as navigation filename. Order of sub-page is alphabetically ordered.  
 
 ```
