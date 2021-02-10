@@ -1,6 +1,6 @@
 # uPlexa Knowledge Base
 
-Migrating from kb-uplexa MediaWiki to gatsbyjs. template based on gitbook style develop by hasura.io
+Migrating uPlexa Knowledge Base from MediaWiki to gatsbyjs. template based on gitbook style develop by hasura.io
 
 
 ## 🚀 Contribute
