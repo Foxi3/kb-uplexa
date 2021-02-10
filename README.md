@@ -11,10 +11,10 @@ Write markdown files in `content` folder.
 Add new page by editing `config.js` and create .md documents filename similar to the navigation filename. See below
 Sub-page can be nested inside folder with same filename as navigation filename. Order of sub-page is alphabetically ordered.
 
-Example:
-/uplexa_wallet/
-  /1-electralight_wallet.md
-  /2-android_wallet.md
+Example:  
+/uplexa_wallet/  
+  /1-electralight_wallet.md  
+  /2-android_wallet.md  
 
 Open `config.js` for templating variables. Broadly configuration is available for `sidebar`.
 
